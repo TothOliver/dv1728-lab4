@@ -67,7 +67,6 @@ static void to_lower_inplace(std::string &s) {
         [](unsigned char c){ return static_cast<char>(std::tolower(c)); });
 }
 
-
 static bool is_default_port(const Url& u) {
     if (u.scheme == "https") return (u.port == "443");
     if (u.scheme == "http")  return (u.port == "80");
@@ -167,7 +166,6 @@ finalize_defaults:
     return true;
 }
 
-
 int main(int argc, char* argv[]) {
     bool cache_enabled = false;
     std::string url_str;
@@ -214,17 +212,54 @@ int main(int argc, char* argv[]) {
     auto t1 = clock::now();
     
     /* do stuff */
-    int resp_body_size=0xFACCE;
-    
+    struct addrinfo hints, *results = nullptr;
+    int sockfd = -1, con = -1;
+    memset(&hints, 0, sizeof(hints));
+    hints.ai_family = AF_UNSPEC;
+    hints.ai_socktype = SOCK_STREAM;
 
+    int status = getaddrinfo(url.host.c_str(), url.port.c_str(), &hints, &results);
+    if(status != 0 || results == NULL){
+        fprintf(stderr, "ERROR: RESOLVE ISSUE");
+        fflush(stderr);
+        return EXIT_FAILURE;
+    }
+
+    for(struct addrinfo *p = results; p != NULL; p = p->ai_next){
+        sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+        if(sockfd == -1){
+            continue;
+        }
+
+        con = connect(sockfd, p->ai_addr, p->ai_addrlen);
+        if(con == -1){
+            close(sockfd);
+            sockfd = -1;
+            continue;
+        }
+        
+        break;
+    }
+    freeaddrinfo(results);
+
+    if(sockfd == -1){
+        fprintf(stderr, "ERROR: socket failed\n");
+        fflush(stderr);
+        return EXIT_FAILURE;
+    }
+    if(con == -1){
+        fprintf(stderr, "ERROR: CANT CONNECT TO %s\n", url.host.c_str());
+        fflush(stderr);
+        return EXIT_FAILURE;
+    }
+    printf("Connected to %s:%s successfully!\n", url.host.c_str(), url.port.c_str());
+
+    int resp_body_size=0xFACCE;
     auto t2 = clock::now();
     std::chrono::duration<double> diff = t2 - t1; // seconds
     std::cout << std::fixed << std::setprecision(6);
     std::cout << now_local_yy_mm_dd_hh_mm_ss() << " " << url_str << " " << resp_body_size << " [bytes] " << diff.count()
               << " [s] " << (8*resp_body_size/diff.count())/1e6 << " [Mbps]\n";
 
-
-
-    
     return EXIT_SUCCESS;
 }
