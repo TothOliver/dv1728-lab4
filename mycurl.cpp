@@ -225,7 +225,7 @@ int main(int argc, char* argv[]) {
 
     int status = getaddrinfo(url.host.c_str(), url.port.c_str(), &hints, &results);
     if(status != 0 || results == NULL){
-        fprintf(stderr, "ERROR: RESOLVE ISSUE");
+        std::fprintf(stdout, "ERROR: RESOLVE ISSUE");
         fflush(stderr);
         return EXIT_FAILURE;
     }
@@ -248,50 +248,87 @@ int main(int argc, char* argv[]) {
     freeaddrinfo(results);
 
     if(sockfd == -1){
-        fprintf(stderr, "ERROR: socket failed\n");
+        std::fprintf(stdout, "ERROR: socket failed\n");
         fflush(stderr);
         return EXIT_FAILURE;
     }
     if(con == -1){
-        fprintf(stderr, "ERROR: CANT CONNECT TO %s\n", url.host.c_str());
+        std::fprintf(stdout, "ERROR: CANT CONNECT TO %s\n", url.host.c_str());
         fflush(stderr);
         return EXIT_FAILURE;
     }
     printf("Connected to %s:%s successfully!\n", url.host.c_str(), url.port.c_str());
 
 
-    bool use_ssl = (url.scheme == "https");
+    bool use_https = (url.scheme == "https");
+    SSL_CTX* ctx = nullptr;
+    SSL* ssl = nullptr;
     
-    if(use_ssl){
-        //open ssl
+    if(use_https){
+        SSL_library_init();
+        SSL_load_error_strings();
+        OpenSSL_add_all_algorithms();
+
+        ctx = SSL_CTX_new(TLS_client_method());
+        if(!ctx){
+            std::fprintf(stdout, "ERROR: CTX failed\n");
+            return EXIT_FAILURE;
+        }
+
+        ssl = SSL_new(ctx);
+        SSL_set_fd(ssl, sockfd);
+        if(SSL_connect(ssl) <= 0){
+            std::fprintf(stdout, "ERROR: SSL connect failed\n");
+            SSL_free(ssl);
+            SSL_CTX_free(ctx);
+            close(sockfd);
+            return EXIT_FAILURE;
+        }
+        std::printf("SSL connected\n");
     }
 
     std::ostringstream request;
     request << "GET " << url.path << " HTTP/1.1\r\n" 
-    << "Host " << url.host << "\r\n" 
+    << "Host: " << url.host << "\r\n" 
     << "Connection: close\r\n" 
     << "\r\n";
     std::string request_str = request.str();
 
-    size_t byte_sent = 0;
-    if(use_ssl)
-        printf("Not currently implemented\n");
-    else
-        byte_sent = send(sockfd, request_str.c_str(), request_str.size(), 0);
-
-    if(byte_sent < 0){
-        perror("send");
-        close(sockfd);
-        return EXIT_FAILURE;
+    if(use_https){
+        size_t byte_sent = SSL_write(ssl, request_str.c_str(), (int)request_str.size());
+        if(byte_sent < 0){
+            std::fprintf(stdout, "ERROR: SSL_write failed\n");
+            SSL_shutdown(ssl);
+            SSL_free(ssl);
+            SSL_CTX_free(ctx);
+            close(sockfd);
+            return EXIT_FAILURE;
+        }
+        printf("Send: %zd bytes (https)\n", byte_sent);
     }
-    printf("Send: %zd bytes\n", byte_sent);
-
+    else{
+        size_t byte_sent = send(sockfd, request_str.c_str(), request_str.size(), 0);
+        if(byte_sent < 0){
+            perror("send");
+            close(sockfd);
+            return EXIT_FAILURE;
+        }   
+        printf("Send: %zd bytes (http)\n", byte_sent);
+    }
 
     std::string response;
     char buf[4000];
 
     while(true){
-        ssize_t byte_recv = recv(sockfd, buf, sizeof(buf), 0);
+        ssize_t byte_recv = 0;
+        memset(&buf, 0, sizeof(buf));
+
+        if(use_https){
+            byte_recv = SSL_read(ssl, buf, sizeof(buf));
+        }
+        else{
+            byte_recv = recv(sockfd, buf, sizeof(buf), 0);
+        }
         if(byte_recv < 0){
             perror("recv");
             close(sockfd);
@@ -302,9 +339,10 @@ int main(int argc, char* argv[]) {
             break;
         }
         response.append(buf, byte_recv);
+        printf("Received %zu bytes from server.\n", response.size());
     }
     close(sockfd);
-    printf("Received %zu bytes from server.\n", response.size());
+    
 
     int resp_body_size=0xFACCE;
     auto t2 = clock::now();
