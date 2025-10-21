@@ -212,7 +212,10 @@ int main(int argc, char* argv[]) {
     auto t1 = clock::now();
     
     /* do stuff */
-    
+    if(std::isdigit(url.host[0])){
+        fprintf(stderr, "error: invalid host format\n");
+        return EXIT_FAILURE;
+    }
 
     struct addrinfo hints, *results = nullptr;
     int sockfd = -1, con = -1;
@@ -245,7 +248,7 @@ int main(int argc, char* argv[]) {
     freeaddrinfo(results);
 
     if(sockfd == -1){
-        fprintf(stderr, "error: socket failed\n");
+        fprintf(stderr, "ERROR: socket failed\n");
         fflush(stderr);
         return EXIT_FAILURE;
     }
