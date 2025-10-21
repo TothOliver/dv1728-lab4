@@ -212,6 +212,8 @@ int main(int argc, char* argv[]) {
     auto t1 = clock::now();
     
     /* do stuff */
+    
+
     struct addrinfo hints, *results = nullptr;
     int sockfd = -1, con = -1;
     memset(&hints, 0, sizeof(hints));
@@ -243,7 +245,7 @@ int main(int argc, char* argv[]) {
     freeaddrinfo(results);
 
     if(sockfd == -1){
-        fprintf(stderr, "ERROR: socket failed\n");
+        fprintf(stderr, "error: socket failed\n");
         fflush(stderr);
         return EXIT_FAILURE;
     }
@@ -253,6 +255,53 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
     printf("Connected to %s:%s successfully!\n", url.host.c_str(), url.port.c_str());
+
+
+    bool use_ssl = (url.scheme == "https");
+    
+    if(use_ssl){
+        //open ssl
+    }
+
+    std::ostringstream request;
+    request << "GET " << url.path << " HTTP/1.1\r\n" 
+    << "Host " << url.host << "\r\n" 
+    << "Connection: close\r\n" 
+    << "\r\n";
+    std::string request_str = request.str();
+
+    size_t byte_sent = 0;
+    if(use_ssl)
+        printf("Not currently implemented\n");
+    else
+        byte_sent = send(sockfd, request_str.c_str(), request_str.size(), 0);
+
+    if(byte_sent < 0){
+        perror("send");
+        close(sockfd);
+        return EXIT_FAILURE;
+    }
+    printf("Send: %zd bytes\n", byte_sent);
+
+
+    std::string response;
+    char buf[4000];
+
+    while(true){
+        ssize_t byte_recv = recv(sockfd, buf, sizeof(buf), 0);
+        if(byte_recv < 0){
+            perror("recv");
+            close(sockfd);
+            return EXIT_FAILURE;
+        }
+        else if(byte_recv == 0){
+            printf("Server Closed...\n");
+            break;
+        }
+        response.append(buf, byte_recv);
+    }
+    close(sockfd);
+    printf("Received %zu bytes from server.\n", response.size());
 
     int resp_body_size=0xFACCE;
     auto t2 = clock::now();
