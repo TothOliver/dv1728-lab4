@@ -213,7 +213,8 @@ int main(int argc, char* argv[]) {
     
     /* do stuff */
     if(std::isdigit(url.host[0])){
-        fprintf(stderr, "error: invalid host format\n");
+        fprintf(stderr, "error \n");
+        fflush(stderr);
         return EXIT_FAILURE;
     }
 
