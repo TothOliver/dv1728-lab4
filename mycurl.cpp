@@ -210,140 +210,172 @@ int main(int argc, char* argv[]) {
     using clock = std::chrono::steady_clock;
 
     auto t1 = clock::now();
-    
+            std::string response;
     /* do stuff */
-    if(std::isdigit(url.host[0])){
-        std::fprintf(stdout, "error invalid host format\n");
-        return EXIT_FAILURE;
-    }
-
-    struct addrinfo hints, *results = nullptr;
-    int sockfd = -1, con = -1;
-    memset(&hints, 0, sizeof(hints));
-    hints.ai_family = AF_UNSPEC;
-    hints.ai_socktype = SOCK_STREAM;
-
-    int status = getaddrinfo(url.host.c_str(), url.port.c_str(), &hints, &results);
-    if(status != 0 || results == NULL){
-        std::fprintf(stdout, "ERROR: RESOLVE ISSUE");
-        fflush(stderr);
-        return EXIT_FAILURE;
-    }
-
-    for(struct addrinfo *p = results; p != NULL; p = p->ai_next){
-        sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
-        if(sockfd == -1){
-            continue;
-        }
-
-        con = connect(sockfd, p->ai_addr, p->ai_addrlen);
-        if(con == -1){
-            close(sockfd);
-            sockfd = -1;
-            continue;
-        }
-        
-        break;
-    }
-    freeaddrinfo(results);
-
-    if(sockfd == -1){
-        std::fprintf(stdout, "ERROR: socket failed\n");
-        fflush(stderr);
-        return EXIT_FAILURE;
-    }
-    if(con == -1){
-        std::fprintf(stdout, "ERROR: CANT CONNECT TO %s\n", url.host.c_str());
-        fflush(stderr);
-        return EXIT_FAILURE;
-    }
-    printf("Connected to %s:%s successfully!\n", url.host.c_str(), url.port.c_str());
-
-
-    bool use_https = (url.scheme == "https");
-    SSL_CTX* ctx = nullptr;
-    SSL* ssl = nullptr;
-    
-    if(use_https){
-        SSL_library_init();
-        SSL_load_error_strings();
-        OpenSSL_add_all_algorithms();
-
-        ctx = SSL_CTX_new(TLS_client_method());
-        if(!ctx){
-            std::fprintf(stdout, "ERROR: CTX failed\n");
-            return EXIT_FAILURE;
-        }
-
-        ssl = SSL_new(ctx);
-        SSL_set_fd(ssl, sockfd);
-        if(SSL_connect(ssl) <= 0){
-            std::fprintf(stdout, "ERROR: SSL connect failed\n");
-            SSL_free(ssl);
-            SSL_CTX_free(ctx);
-            close(sockfd);
-            return EXIT_FAILURE;
-        }
-        std::printf("SSL connected\n");
-    }
-
-    std::ostringstream request;
-    request << "GET " << url.path << " HTTP/1.1\r\n" 
-    << "Host: " << url.host << "\r\n" 
-    << "Connection: close\r\n" 
-    << "\r\n";
-    std::string request_str = request.str();
-
-    if(use_https){
-        size_t byte_sent = SSL_write(ssl, request_str.c_str(), (int)request_str.size());
-        if(byte_sent < 0){
-            std::fprintf(stdout, "ERROR: SSL_write failed\n");
-            SSL_shutdown(ssl);
-            SSL_free(ssl);
-            SSL_CTX_free(ctx);
-            close(sockfd);
-            return EXIT_FAILURE;
-        }
-        printf("Send: %zd bytes (https)\n", byte_sent);
-    }
-    else{
-        size_t byte_sent = send(sockfd, request_str.c_str(), request_str.size(), 0);
-        if(byte_sent < 0){
-            perror("send");
-            close(sockfd);
-            return EXIT_FAILURE;
-        }   
-        printf("Send: %zd bytes (http)\n", byte_sent);
-    }
-
-    std::string response;
-    char buf[4000];
-
     while(true){
-        ssize_t byte_recv = 0;
-        memset(&buf, 0, sizeof(buf));
+        struct addrinfo hints, *results = nullptr;
+        int sockfd = -1, con = -1;
+        memset(&hints, 0, sizeof(hints));
+        hints.ai_family = AF_UNSPEC;
+        hints.ai_socktype = SOCK_STREAM;
 
-        if(use_https){
-            byte_recv = SSL_read(ssl, buf, sizeof(buf));
-        }
-        else{
-            byte_recv = recv(sockfd, buf, sizeof(buf), 0);
-        }
-        if(byte_recv < 0){
-            perror("recv");
-            close(sockfd);
+        int status = getaddrinfo(url.host.c_str(), url.port.c_str(), &hints, &results);
+        if(status != 0 || results == NULL){
+            std::fprintf(stdout, "ERROR: RESOLVE ISSUE\n");
+            fflush(stderr);
             return EXIT_FAILURE;
         }
-        else if(byte_recv == 0){
-            printf("Server Closed...\n");
+
+        for(struct addrinfo *p = results; p != NULL; p = p->ai_next){
+            sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+            if(sockfd == -1){
+                continue;
+            }
+
+            con = connect(sockfd, p->ai_addr, p->ai_addrlen);
+            if(con == -1){
+                close(sockfd);
+                sockfd = -1;
+                continue;
+            }
+            
             break;
         }
-        response.append(buf, byte_recv);
-        printf("Received %zu bytes from server.\n", response.size());
-    }
-    close(sockfd);
-    
+        freeaddrinfo(results);
 
+        if(sockfd == -1){
+            std::fprintf(stdout, "error socket failed\n");
+            fflush(stderr);
+            return EXIT_FAILURE;
+        }
+        if(con == -1){
+            std::fprintf(stdout, "error CANT CONNECT TO %s\n", url.host.c_str());
+            fflush(stderr);
+            return EXIT_FAILURE;
+        }
+        printf("Connected to %s:%s successfully!\n", url.host.c_str(), url.port.c_str());
+
+
+        bool use_https = (url.scheme == "https");
+        SSL_CTX* ctx = nullptr;
+        SSL* ssl = nullptr;
+        
+        if(use_https){
+            SSL_library_init();
+            SSL_load_error_strings();
+            OpenSSL_add_all_algorithms();
+
+            ctx = SSL_CTX_new(TLS_client_method());
+            if(!ctx){
+                std::fprintf(stdout, "ERROR: CTX failed\n");
+                return EXIT_FAILURE;
+            }
+
+            ssl = SSL_new(ctx);
+            SSL_set_fd(ssl, sockfd);
+            if(SSL_connect(ssl) <= 0){
+                std::fprintf(stdout, "ERROR: SSL connect failed\n");
+                SSL_free(ssl);
+                SSL_CTX_free(ctx);
+                close(sockfd);
+                return EXIT_FAILURE;
+            }
+            std::printf("SSL connected\n");
+        }
+
+        std::ostringstream request;
+        request << "GET " << url.path << " HTTP/1.1\r\n" 
+        << "Host: " << url.host << "\r\n" 
+        << "Connection: close\r\n" 
+        << "\r\n";
+        std::string request_str = request.str();
+
+        if(use_https){
+            size_t byte_sent = SSL_write(ssl, request_str.c_str(), (int)request_str.size());
+            if(byte_sent < 0){
+                std::fprintf(stdout, "ERROR: SSL_write failed\n");
+                SSL_shutdown(ssl);
+                SSL_free(ssl);
+                SSL_CTX_free(ctx);
+                close(sockfd);
+                return EXIT_FAILURE;
+            }
+            printf("Send: %zd bytes (https)\n", byte_sent);
+        }
+        else{
+            size_t byte_sent = send(sockfd, request_str.c_str(), request_str.size(), 0);
+            if(byte_sent < 0){
+                perror("send");
+                close(sockfd);
+                return EXIT_FAILURE;
+            }   
+            printf("Send: %zd bytes (http)\n", byte_sent);
+        }
+
+        response.clear();
+        char buf[5000];
+
+        while(true){
+            ssize_t byte_recv = 0;
+            memset(&buf, 0, sizeof(buf));
+
+            if(use_https){
+                byte_recv = SSL_read(ssl, buf, sizeof(buf));
+            }
+            else{
+                byte_recv = recv(sockfd, buf, sizeof(buf), 0);
+            }
+
+            if(byte_recv < 0){
+                perror("recv");
+                close(sockfd);
+                return EXIT_FAILURE;
+            }
+            else if(byte_recv == 0){
+                printf("Server Closed...\n");
+                break;
+            }
+            response.append(buf, byte_recv);
+            printf("Received %zu bytes from server.\n", response.size());
+        }
+        close(sockfd);
+
+        if(response.find("HTTP/1.1 3") == 0){
+
+            if(redirects >= max_redirects){
+                std::fprintf(stdout, "error maximum amount of redirects reached\n");
+                return EXIT_FAILURE;
+            }
+
+            size_t location = response.find("Location: ");
+            if(location != std::string::npos){
+                size_t end = response.find("\r\n", location);
+                std::string new_url_str = response.substr(location + 9, end - (location + 9));
+
+                while (!new_url_str.empty() && std::isspace((unsigned char)new_url_str.front()))
+                    new_url_str.erase(0, 1);
+                while (!new_url_str.empty() && std::isspace((unsigned char)new_url_str.back()))
+                    new_url_str.pop_back();
+
+                std::printf("redirecting from %s to %s\n", url_str.c_str(), new_url_str.c_str());
+
+                redirects++;
+                Url new_url;
+                if (!parse_url(new_url_str, new_url, error)) {
+                    std::fprintf(stdout, "ERROR URL parse error: %s\n", error.c_str());
+                    return EXIT_FAILURE;
+                }
+
+                url = new_url;
+                url_str = new_url_str;
+                close(sockfd);
+                continue;
+            }
+        }
+        close(sockfd);
+        break;
+    }
+    
     int resp_body_size=0xFACCE;
     auto t2 = clock::now();
     std::chrono::duration<double> diff = t2 - t1; // seconds
