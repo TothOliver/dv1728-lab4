@@ -1,0 +1,1020 @@
+78c
+<!DOCTYPE html>
+<html lang="sv" class="sv-no-js sv-template-start">
+<head>
+   <meta charset="UTF-8">
+   <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">(function(c){c.add('sv-js');c.remove('sv-no-js');})(document.documentElement.classList)</script>
+   <title>Blekinge Tekniska Högskola</title>
+   <link rel="preload" href="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/jquery.js" as="script">
+   <link rel="preload" href="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/envision/envision.js" as="script">
+   <link rel="preload" href="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/utils.js" as="script">
+   <link rel="preload" href="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/portlets.js" as="script">
+               <meta name="description" content="Blekinge Tekniska Högskola – utbildning, forskning &amp; innovation i världsklass för en hållbar framtid.">
+                     <meta name="keywords" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+   <meta name="dcterms.identifier" content="https://www.bth.se">
+   <meta name="dcterms.language" content="sv">
+   <meta name="dcterms.format" content="text/html">
+   <meta name="dcterms.type" content="text">
+   <link rel="canonical" href="https://www.bth.se">
+   <link rel="stylesheet" type="text/css" href="/2.3d4e01e718f3783f9d5285/1761106358257/sitevision-responsive-grids.css?gridConfigs=651.3d4e01e718f3783f9d517_FIXED_FLUID_GRID%2C651.3d4e01e718f3783f9d517_FLUID_GRID%2C651.72b295211919732c26d1312_FIXED_FLUID_GRID%2C651.72b295211919732c26d1312_FLUID_GRID&pushPull=false">
+   <link rel="stylesheet" type="text/css" href="/2.3d4e01e718f3783f9d5285/1761106510590/sitevision-spacing.css">
+   
+2000
+
+      <link rel="stylesheet" type="text/css" href="/2.3d4e01e718f3783f9d5285/auto/1761114241065/SiteVision.css">
+      <link rel="stylesheet" type="text/css" href="/2.3d4e01e718f3783f9d5285/0/1845/print/SiteVision.css">
+   <link rel="stylesheet" type="text/css" href="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/css/portlets.css">
+   <link rel="stylesheet" type="text/css" href="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/envision/envision.css">
+
+      <link rel="stylesheet" type="text/css" href="/2.3d4e01e718f3783f9d5285/91.3d4e01e718f3783f9d563/1761106528861/0/sv-template-asset.css">
+         <link rel="stylesheet" type="text/css" href="/webapp-resource/2.3d4e01e718f3783f9d5285/360.17e26f521967ca07dff45df/1745942511984/webapp-assets.css">
+      <link rel="stylesheet" type="text/css" href="/webapp-resource/2.3d4e01e718f3783f9d5285/360.4ac9b01119931e0f6982e72f/1758297711323/webapp-assets.css">
+      <link rel="stylesheet" type="text/css" href="/webapp-resource/2.3d4e01e718f3783f9d5285/360.51503f281975d5ac35f2e246/1750176115049/webapp-assets.css">
+      <!-- Piwik Pro -->
+   <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'sitevision.preClientContainerSetup',
+        sitevision: {
+           pageId: '2.3d4e01e718f3783f9d5285'
+        }
+      });
+(function(window, document, dataLayerName, id) {
+window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString();f="; SameSite=Strict"}document.cookie=a+"="+b+d+f+"; path=/; Secure"}
+var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),qP.push("use_secure_cookies"),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+tags.async=!0,tags.src="https://svanalytics.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+})(window, document, 'dataLayer', '68be7b61-a8f3-4667-84b4-8b47fd00c71d');
+   </script>
+   <!-- End Piwik Pro -->
+   <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">!function(t,e){t=t||"docReady",e=e||window;var n=[],o=!1,c=!1;function d(){if(!o){o=!0;for(var t=0;t<n.length;t++)try{n[t].fn.call(window,n[t].ctx)}catch(t){console&&console.error(t)}n=[]}}function a(){"complete"===document.readyState&&d()}e[t]=function(t,e){if("function"!=typeof t)throw new TypeError("callback for docReady(fn) must be a function");o?setTimeout(function(){t(e)},1):(n.push({fn:t,ctx:e}),"complete"===document.readyState?setTimeout(d,1):c||(document.addEventListener?(document.addEventListener("DOMContentLoaded",d,!1),window.addEventListener("load",d,!1)):(document.attachEvent("onreadystatechange",a),window.attachEvent("onload",d)),c=!0))}}("svDocReady",window);</script>
+   <link rel="alternate" href="https://www.bth.se/english" hreflang="en">
+   <link rel="alternate" href="https://www.bth.se/" hreflang="sv">
+   <script src="/2.3d4e01e718f3783f9d5285/91.3d4e01e718f3783f9d563/1761106528892/HEAD/0/sv-template-asset.js"></script>
+   <link rel="icon" type="image/svg+xml" href="/images/18.72b295211919732c26d29b0/1725266267583/favicon.svg">
+<link rel="icon" type="image/png" href="/images/18.72b295211919732c26d29af/1725266267569/favicon.png">
+   
+
+	<meta name="description" content="Blekinge Tekniska Högskola – utbildning, forskning &amp; innovation i världsklass för en hållbar framtid.">
+
+
+
+
+
+      
+
+	<meta name="twitter:image" content="https://www.bth.se/images/200.15b01267195ad78d0ed6178e/1744025493763/Rectangle%20400%20x%20400%20px.png" />
+	<meta property="og:image" content="https://www.bth.se/images/200.15b01267195ad78d0ed6178e/1744025493763/Rectangle%20400%20x%20400%20px.png" />
+
+
+	<meta property="og:url" content="https://www.bth.se/" />
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:creator" content="">
+
+   
+ 
+
+  
+
+   
+      
+
+
+
+<script type="application/ld+json" data-rekai nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "tags": "",
+      "image": "https://www.bth.se/images/18.1fb7c131191e4de5497280/1726142842031/Rectangle%20400%20x%20400%20px.png",
+      "fallbackDesc": "Blekinge Tekniska Högskola – utbildning, forskning & innovation i världsklass för en hållbar framtid."
+    }
+</script>
+   
+
+<script src="https://static.rekai.se/files/sv-autocomplete.min.js" nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5"></script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+  svDocReady(function() {
+ 
+    // START SITEVISION
+    var allowedlangs = document.documentElement.lang;
+    $svjq(".sv-searchform-portlet input[name='query']").rekAutoComplete({
+        params: {
+            allowedlangs: allowedlangs,
+            entitytype: 'all', // Also questions
+            sendToTarget: true // Click sends to target page  
+        }          
+    });
+  });
+</script>
+   <meta name="google-site-verification" content="JckDVHzROVSkGPwwV43rQe5mWXwGSFozM2jgmYfgOZo"/>
+   <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+      window.sv = window.sv || {};
+      sv.UNSAFE_MAY_CHANGE_AT_ANY_GIVEN_TIME_webAppExternals = {};
+      sv.PageContext = {
+      pageId: '2.3d4e01e718f3783f9d5285',
+      siteId: '2.3d4e01e718f3783f9d5285',
+      userIdentityId: '',
+      userIdentityReadTimeout: 0,
+      userLocale: 'sv',
+      dev: false,
+      csrfToken: '',
+      html5: true,
+      useServerSideEvents: false,
+      nodeIsReadOnly: false
+      };
+   </script>
+      <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">!function(){"use strict";var t,n={},e={},i={};function r(t){return n[t]=n[t]||{instances:[],modules:{},bundle:{}},n[t]}document.querySelector("html").classList.add("js");var s={registerBootstrapData:function(t,n,i,r,s){var a,o=e[t];o||(o=e[t]={}),(a=o[i])||(a=o[i]={}),a[n]={subComponents:r,options:s}},registerInitialState:function(t,n){i[t]=n},registerApp:function(n){var e=n.applicationId,i=r(e);if(t){var s={};s[e]=i,s[e].instances=[n],t.start(s)}else i.instances.push(n)},registerModule:function(t){r(t.applicationId).modules[t.path]=t},registerBundle:function(t){r(t.applicationId).bundle=t.bundle},getRegistry:function(){return n},setAppStarter:function(n){t=n},getBootstrapData:function(t){return e[t]},getInitialState:function(t){return i[t]}};window.AppRegistry=s}();</script>
+   <link rel="stylesheet" href="/download/18.52040d67190100fa97d2fec/1761048369447/main.min.css" />
+   
+        <meta name="rek:pubdate" content="2021-11-22T09:49:12.000Z">
+        <meta name="rek:moddate" content="2025-10-17T15:02:19.000Z">
+        
+   
+            <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+                window.__rekai = window.__rekai || {};
+                window.__rekai.nonce = 'e7289890-af2a-11f0-9e6e-2da777ea20f5';
+                window.__rekai.appdata = {
+                    uuid: 'aa692c9b',
+                    srek: 'defc3067',
+                    initSvAutoComplete: false,
+                    svAutoCompleteToTarget: true,
+                    svAutoCompleteQna: true,
+                    svAutoCompleteShowAllBtn: false,
+                    isDevEnvironment: true,
+                    consent: {
+                        hasRekaiConsent: false,
+                        hasAcceptedRekaiConsent: f
+2000
+alse,
+                        hasPendingUserConsents: true
+                    }
+                };
+            </script>
+            
+   <script src="https://static.rekai.se/aa692c9b.js" defer></script>
+</head>
+<body class=" sv-responsive sv-theme-default env-m-around--0">
+<div id="svid10_3d4e01e718f3783f9d5fe" class="sv-layout"><div class="sv-custom-module sv-custom-vision-localdev sv-skip-spacer sv-template-portlet
+" id="svid12_4e3c3b0d197162cec96d47"><div id="Localdev"><!-- Localdev --></div>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'custom.vision.localdev|1.0.0',htmlElementId:'svid12_4e3c3b0d197162cec96d47',route:'/',portletId:'12.4e3c3b0d197162cec96d47',locale:'sv',defaultLocale:'en',webAppId:'custom.vision.localdev',webAppVersion:'1.0.0',webAppAopId:'360.4da826e919010096ed3ec77',webAppImportTime:'1719305951652',requiredLibs:{}});</script></div>
+<div class="sv-script-portlet sv-portlet sv-template-portlet
+" id="svid12_5b7a62d6192bd21b962c837"><div id="MakeheaderwhiteSkript"><!-- Make header white Skript --></div>	<div class="sp-make-header-white true" id="sp-make-header-white"></div>
+</div>
+<header class="sv-vertical sv-layout sv-template-layout" id="svid10_3d4e01e718f3783f9d51f0"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid10_32b800b2190a641372f1c463"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid93_75e86820194d83465e339a6e"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout c1386"  id="svid10_32b800b2190a641372f1c46e"><div class="sv-fixed-fluid-grid sv-grid-full-1680px sv-layout sv-skip-spacer sv-template-layout" id="svid10_32b800b2190a641372f1c48a"><div class="sv-archive-portlet sv-portlet sv-skip-spacer sv-template-portlet
+" id="svid12_32b800b2190a641372f1c462"><div id="NyheterVMArod"><!-- Nyheter VMA röd --></div>
+
+
+</div>
+</div>
+</div>
+<div class="sv-vertical sv-layout sv-template-layout c1386"  id="svid10_32b800b2190a641372f1c46f"><div class="sv-fixed-fluid-grid sv-grid-full-1680px sv-layout sv-skip-spacer sv-template-layout" id="svid10_32b800b2190a641372f1c48b"><div class="sv-archive-portlet sv-portlet sv-skip-spacer sv-template-portlet
+" id="svid12_32b800b2190a641372f1c464"><div id="NyheterVMAgul"><!-- Nyheter VMA gul --></div>
+
+
+</div>
+</div>
+</div>
+<div class="sv-vertical sv-layout sv-template-layout c1386"  id="svid10_32b800b2190a641372f1c470"><div class="sv-fixed-fluid-grid sv-grid-full-1680px sv-layout sv-skip-spacer sv-template-layout" id="svid10_32b800b2190a641372f1c48c"><div class="sv-archive-portlet sv-portlet sv-skip-spacer sv-template-portlet
+" id="svid12_32b800b2190a641372f1c465"><div id="NyheterVMAvit"><!-- Nyheter VMA vit --></div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sv-script-portlet sv-portlet sv-template-portlet
+" id="svid12_3d4e01e718f3783f9d52f8"><div id="GatillinnehallSkript"><!-- &quot;Gå till innehåll&quot; Skript --></div><div class="sp-jumptocontent">
+      <a class="env-assistive-text env-assistive-text--focusable" href="#sp-jumptocontent">Gå till innehåll</a>
+   </div></div>
+<div class="sv-fluid-grid sv-grid-full-1680px sv-layout sv-template-layout" id="svid10_3d4e01e718f3783f9d52a1"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid10_1d612326194d82b9883c0a"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid93_1d612326194d82b9883c0b"><div class="sv-vertical sv-layout sp-header sv-skip-spacer sv-template-layout" id="svid10_3d4e01e718f3783f9d5171"><div class="sv-horizontal sv-layout sp-header-logo sv-skip-spacer sv-template-layout" id="svid10_3d4e01e718f3783f9d5a9"><div class="sv-horizontal sv-layout sv-skip-spacer sv-horizontal-column sv-template-layout" id="svid93_78010c411932979f7b02031"><div  class="sv-image-portlet sv-portlet sv-visible-sv-bp-desktop sv-skip-spacer sv-template-portlet
+ c1384" id="svid12_190f311118fa3fd74d55fc"><div id="LogoBilddesktop"><!-- Logo Bild desktop --></div><a href="/"><img alt="Logo Blekinge Tekniska Högskola" class="sv-noborder sv-svg c1335"  width="77" height="76" src="/images/18.190f311118fa3fd74d55f9/1716549158164/BTH%20logo.svg"></a></div>
+<div  class="sv-image-portlet sv-portlet sv-hide-sv-bp-desktop sv-template-portlet
+ c1384" id="svid12_2083a8fc1936797e3a034e0"><div id="LogoBildmobil"><!-- Logo Bild mobil --></div><a href="/"><img alt="Logo Blekinge Tekniska Högskola" class="sv-noborder sv-svg c1522"  width="64" height="64" src="/images/18.190f311118fa3fd74d55f9/1716549158164/BTH%20logo.svg"></a></div>
+</div>
+</div>
+<div class="sv-horizontal sv-layout sv-template-layout" id="svid10_3d4e01e718f3783f9d5210"><div class="sv-custom-module sv-topMenu sv-hide-sv-bp-mobile-small sv-hide-sv-bp-mobile sv-hide-sv-bp-mobile-big-768px sv-hide-sv-bp-tablet sv-skip-spacer sv-horizontal-column sv-template-portlet
+" id="svid12_72b295211919732c26d8072"><div id="Toppmeny"><!-- Toppmeny --></div><div data-cid="12.72b295211919732c26d8072"><nav class="sp-top-menu-wrapper" aria-label="Toppmeny" data-reactroot=""><div class="sp-top-menu"><button type="button" aria-controls="sp-top-menu-submenu" aria-haspopup="true" aria-expanded="false" class="normal sp-top-menu-top-item">Utbildning</button><button type="button" aria-controls="sp-top-menu-submenu" aria-haspopup="true" aria-expanded="false" class="normal sp-top-menu-top-item">Student</button><button type="button" aria-controls="sp-top-menu-submenu" aria-haspopup="true" aria-expanded="false" class="normal sp-top-menu-top-item">Forskning</button><button type="button" aria-controls="sp-top-menu-submenu" aria-haspopup="true" aria-expanded="false" class="normal sp-top-menu-top-item">Om BTH</button></div><div class="sp-top-menu-submenu" id="sp-top-menu-submenu"><div class="sp-top-menu-submenu-column-first"><a href="" class="normal sp-top-menu-submenu-column-first-header"><i class="icon-arrow-right"></i><div>back</div></a><p class="normal"></p></div><div class="sp-top-menu-submenu-column-second"></div><div class="sp-top-menu-submenu-column-third"><div></div><div class="sp-top-menu-submenu-column-third-fourth-label"><a><span></span></a></div></div><div class="sp-top-menu-submenu-column-fourth"><div></div><div class="sp-top-menu-submenu-column-third-fourth-label"><a><span></span></a></div></div><div class="sp-top-menu-submenu-close-button"><button type="button" aria-controls="sp-top-menu-submenu"><span class="env-assistive-text">Stäng toppmenyn</span><i class="icon-x"></i></button></div></div></nav></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.72b295211919732c26d8072','12.72b295211919732c26d8072','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.72b295211919732c26d8072',{"sitePageMenuItems":[{"label":"Utbildning","uri":"/utbildning","id":"4.72b295211919732c26d8198","isParentOfCurrentpage":false},{"label":"Student","uri":"/student","id":"4.72b295211919732c26d81a3","isParentOfCurrentpage":false},{"label":"Forskning","uri":"/forskning","id":"4.72b295211919732c26d81ae","isParentOfCurrentpage":false},{"label":"Om BTH","uri":"/om-bth","id":"4.72b295211919732c26d81b9","isParentOfCurrentpage":false}]});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'topMenu|0.0.9',htmlElementId:'svid12_72b295211919732c26d8072',route:'/',portletId:'12.72b295211919732c26d8072',locale:'sv',defaultLocale:'en',webAppId:'topMenu',webAppVersion:'0.0.9',webAppAopId:'360.781d8b4d199c8f345a53e267',webAppImportTime:'1760943922565',requiredLibs:{"react":"17.0.2"}});</script></div>
+</div>
+<div class="sv-horizontal sv-layout sp-header-buttons sv-template-layout" id="svid10_3d4e01e718f3783f9d520f"><div class="sv-script-portlet sv-portlet sv-skip-spacer sv-horizontal-column sv-template-portlet
+" id="svid12_1fb7c131191e4de54971a6ed"><div id="SokrutaSkript"><!-- Sökruta Skript --></div><button
+   class="sp-header-buttons__search env-button"
+   aria-expanded="false"
+   aria-controls="sp-header-search"
+   title="Visa/dölj sökruta">
+   <i class="icon-search"></i>
+   <span class="c1387">
+                  S
+2000
+ök 
+               </span>
+</button></div>
+<div class="sv-script-portlet sv-portlet sv-hide-sv-bp-mobile-small sv-hide-sv-bp-mobile sv-hide-sv-bp-mobile-big-768px sv-hide-sv-bp-tablet sv-horizontal-column sv-template-portlet
+" id="svid12_72b295211919732c26d154"><div id="BibliotekSkript"><!-- Bibliotek Skript --></div><a href="/bibliotek" class="sp-header-buttons__library env-button env-button--secondary">
+      	Bibliotek
+   </a>
+</div>
+<div class="sv-script-portlet sv-portlet sv-hide-sv-bp-mobile-small sv-hide-sv-bp-mobile sv-hide-sv-bp-mobile-big-768px sv-hide-sv-bp-tablet sv-horizontal-column sv-template-portlet
+" id="svid12_75e86820194d83465e313a8"><div id="SprakvaljareomsidanejoversattSkript"><!-- Språkväljare om sidan ej översatt Skript --></div>			<a class="sp-header-buttons__translation env-button env-button--secondary" lang="en" href="/english">English</a>
+	
+</div>
+<div class="sv-custom-module sv-mobileMenu sv-horizontal-column sv-template-portlet
+" id="svid12_1fb7c131191e4de549718fb2"><div id="Mobilmeny"><!-- Mobilmeny --></div><div data-cid="12.1fb7c131191e4de549718fb2"><nav class="sp-mobile-menu-wrapper" data-reactroot=""><button type="button" aria-controls="sp-mobile-menu" aria-haspopup="true" aria-expanded="false" class="sp-mobile-menu-button env-button" title="Visa mobilmeny"><i class="icon-menu"></i><span>Meny</span></button><dialog class="sp-mobile-menu" id="sp-mobile-menu"><ul><li class="sp-mobile-menu-parent-wrapper"><button><i class="icon-arrow-left"></i><span class="env-assistive-text">Tillbaka</span></button><a href="">Tillbaka</a></li><li class="sp-mobile-menu-item-wrapper"><a class="sp-mobile-menu-item sp-mobile-menu-item-parent-is-root" href="/bibliotek"><span>Bibliotek</span></a></li><li class="sp-mobile-menu-item-wrapper"><a class="sp-mobile-menu-item sp-mobile-menu-item-parent-is-root" href=""><span>In English</span></a></li></ul></dialog></nav></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.1fb7c131191e4de549718fb2','12.1fb7c131191e4de549718fb2','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.1fb7c131191e4de549718fb2',{"currentPageId":"2.3d4e01e718f3783f9d5285_sitePage","libraryPageUri":"/bibliotek","searchPageUri":"/sok","isSubWeb":false,"startPageUri":"/"});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'mobileMenu|0.0.5',htmlElementId:'svid12_1fb7c131191e4de549718fb2',route:'/',portletId:'12.1fb7c131191e4de549718fb2',locale:'sv',defaultLocale:'en',webAppId:'mobileMenu',webAppVersion:'0.0.5',webAppAopId:'360.29f46a199c901544037f4',webAppImportTime:'1760098802820',requiredLibs:{"react":"17.0.2"}});</script></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sv-row sv-layout sv-template-layout c1385"  id="svid10_3d4e01e718f3783f9d520d"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid93_1d612326194d82b98835740"><div class="sv-searchform-portlet sv-portlet sv-skip-spacer sv-template-portlet
+" id="svid12_3d4e01e718f3783f9d5188"><div id="Sokruta"><!-- Sökruta --></div>
+
+                                                                                                             
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+svDocReady(function() {
+   // Backwards compatibility for custom templates
+   $svjq("#search12_3d4e01e718f3783f9d5188").on('focusin', function() {
+      if ($svjq("#search12_3d4e01e718f3783f9d5188").val() == "Ange sökord") {
+         $svjq("#search12_3d4e01e718f3783f9d5188").val("");
+         return false;
+      }
+   });
+   // Submit, blocks empty and placeholder queries
+   $svjq("#search12_3d4e01e718f3783f9d5188button").on('click', function() {
+      const qry = $svjq("#search12_3d4e01e718f3783f9d5188").val();
+      if (qry == "" || qry == "Ange sökord") {
+         return false;
+      }
+   });
+   // Invokes the search button if user presses the enter key (needed in IE)
+   $svjq("#search12_3d4e01e718f3783f9d5188").on('keypress', function(e) {
+      if (e.which == 13) {
+         $svjq("#search12_3d4e01e718f3783f9d5188button").trigger('focus').trigger('click');
+         return false;
+      }
+   });
+});
+</script>
+
+
+   <div class="sp-header-search" id="sp-header-search">
+<div></div>
+<form method="get" action="/sok" class="sv-nomargin sp-header-search__input">
+   <div class="subheading3 hide-mobile-small hide-mobile">
+   	   		Sök på BTH:s webbplats
+   	   </div>
+   <div role="search">
+      <label for="search12_3d4e01e718f3783f9d5188" class="sv-visuallyhidden">Sök</label>
+      <input id="search12_3d4e01e718f3783f9d5188"
+             class="normal sv-vamiddle c1450"
+             
+             type="text"
+             name="query"
+             value=""
+             autocomplete="off"
+                                  placeholder="Ange sökord"
+               />
+               <button id="search12_3d4e01e718f3783f9d5188button" type="submit" class="env-button" name="submitButton" value="Sök">Sök</button>
+         </div>
+   <div id="search12_3d4e01e718f3783f9d5188selectedState" class="sv-visuallyhidden"  aria-atomic="true" aria-live="assertive"></div>
+</form>
+<div class="sp-header-search__close-button hide-mobile-small hide-mobile">
+	<button aria-controls="sp-header-search" id="sp-header-search__close-button">
+      <span class="env-assistive-text">
+      	   			Stäng meddelande
+   		      </span>
+      <i class="icon-x"></i>
+   </button>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</header>
+<main class="sv-vertical sv-layout sv-template-layout" id="svid10_3d4e01e718f3783f9d51a7"><div class="sv-html-portlet sv-portlet sv-skip-spacer sv-template-portlet
+" id="svid12_3d4e01e718f3783f9d525a"><div id="InnehalletHTML"><!-- &quot;Innehållet&quot; HTML --></div><div id="sp-jumptocontent"></div></div>
+<div class="sv-fixed-fluid-grid sv-grid-full-1680px sv-layout sv-template-layout" id="svid10_72b295211919732c26d33bc"><div id="svid94_3d4e01e718f3783f9d5d9"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid10_5b7a62d6192bd21b9627fe"><div id="svid94_3d4e01e718f3783f9d571" class="pagecontent sv-layout"><div id="Huvudinnehall"><!-- Huvudinnehåll --></div><div class="sv-fluid-grid sv-grid-full-1680px sv-layout sp-startpage-top sv-skip-spacer" id="svid10_5b7a62d6192bd21b962821"><div class="sv-fluid-grid sv-grid-content sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b962822"><div class="sv-script-portlet sv-portlet sv-skip-spacer" id="svid12_5b7a62d6192bd21b962824"><div id="SidansnamnsomH1skript"><!-- Sidans namn som H1 skript --></div><h1 class="sv-visuallyhidden">
+   Blekinge Tekniska Högskola
+</h1></div>
+<div class="sv-vertical sv-layout sp-startpage-video-and-puff c1461"  id="svid10_78010c411932979f7b01371"><div class="sv-custom-module sv-marketplace-mediaflow-mediaflow sp-startpage-top-video sv-skip-spacer" id="svid12_75e86820194d83465e3376d3"><div id="Mediaflow"><!-- Mediaflow --></div><div id="mfvsf9dmp"></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">if(!document.querySelector('link[href="https://mfstatic.com/css/mediaflowplayer.min.css"]')){const mflsf9dmp=document.createElement('link');mflsf9dmp.setAttribute('rel','stylesheet');mflsf9dmp.setAttribute('type','text/css');mflsf9dmp.setAttribute('href','https://mfstatic.com/css/mediaflowplayer.min.css');document.getElementsByTagName('head')[0].appendChild(mflsf9dmp);}if(typeof(MFPlayer)=='undefined'){const mfssf9dmp=document.createElement('script');mfssf9dmp.setAttribute('crossorigin','anonymous');document.body.appendChild(mfssf9dmp);mfssf9dmp.onload=function(){new MFPlayer('#mfvsf9dmp','17DF9X3JQY', {"autoPlay":false});};mfssf9dmp.src='https://mfstatic.com/js/mediaflowplayer.min.js';}else{new MFPlayer('mfvsf9dmp','17DF9X3JQY', {"autoPlay":false});}</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'marketplace.mediaflow.mediaflow|2.1.2',htmlElementId:'svid12_75e86820194d83465e3376d3',route:'/',portletId:'12.75e86820194d83465e3376d3',locale:'sv',defaultLocale:'en',webAppId:'marketplace.mediaflow.mediaflow',webAppVersion:'2.1.2',webAppAopId:'360.447bec
+2000
+f198bb75f5da6be4',webAppImportTime:'1755619310489',requiredLibs:{}});</script></div>
+<div class="sv-custom-module sv-largePuffStartpage sp-startpage-large-puff" id="svid12_78010c411932979f7b01377"><div id="Storpuffstartsida"><!-- Stor puff startsida --></div><div data-cid="12.78010c411932979f7b01377"><div class="sp-large-puff-startpage" data-reactroot=""><div class="env-container"><div class="env-dynamic-font sp-large-puff-startpage-header"><div class="sp-large-puff-startpage-padding-header"><p class="env-text">Blekinge Tekniska Högskola - en plats för nyfikenhet, innovation och förändring.</p></div></div></div><div class="sp-large-puff-startpage-padding-link"><a href="/om-bth" class="sp-large-puff-startpage-link-text">MER OM BTH</a><i class="icon-arrow-right"></i></div></div></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.78010c411932979f7b01377','12.78010c411932979f7b01377','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.78010c411932979f7b01377',{"header":"Blekinge Tekniska Högskola - en plats för nyfikenhet, innovation och förändring.","linkText":"MER OM BTH","uri":"/om-bth"});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'largePuffStartpage|0.0.1',htmlElementId:'svid12_78010c411932979f7b01377',route:'/',portletId:'12.78010c411932979f7b01377',locale:'sv',defaultLocale:'en',webAppId:'largePuffStartpage',webAppVersion:'0.0.1',webAppAopId:'360.2b8ca71b191e4e69288aa5',webAppImportTime:'1743431037617',requiredLibs:{"react":"17.0.2"}});</script></div>
+</div>
+<div class="sv-custom-module sv-subPuffsStartpage" id="svid12_5b7a62d6192bd21b96282c"><div id="Puffarnaunderstorapuffenpastartsidan"><!-- Puffarna under stora puffen på startsidan --></div><div data-cid="12.5b7a62d6192bd21b96282c"><div class="sp-sub-puffs-startpage" data-reactroot=""><div class="sp-sub-puffs-startpage-left-column"><div class="sp-sub-puffs-startpage-peach-puff sp-sub-puffs-startpage-peach-puff-link"><div class="sp-sub-puffs-startpage-peach-puff-image-wrapper"><img src="/images/200.179b45521969f7985a813b81/1746789873502/240826-Upprop-21.webp" loading="lazy" srcset="/images/200.179b45521969f7985a813b81/1746789873502/x160p/240826-Upprop-21.webp 160w, /images/200.179b45521969f7985a813b81/1746789873502/x320p/240826-Upprop-21.webp 320w, /images/200.179b45521969f7985a813b81/1746789873502/x480p/240826-Upprop-21.webp 480w, /images/200.179b45521969f7985a813b81/1746789873502/x640p/240826-Upprop-21.webp 640w, /images/200.179b45521969f7985a813b81/1746789873502/x800p/240826-Upprop-21.webp 800w, /images/200.179b45521969f7985a813b81/1746789873502/240826-Upprop-21.webp 850w" sizes="100vw" class="sv-noborder sp-sub-puffs-startpage-peach-puff-img-container" alt=""></div><div class="sp-sub-puffs-startpage-peach-puff-embedded-block"><a href="/utbildning" class="sp-sub-puffs-startpage-peach-puff-link-text">VÅRA UTBILDNINGAR</a><i class="icon-arrow-right"></i><div class="sp-sub-puffs-startpage-peach-puff-header">Sen anmälan är fortfarande öppen!</div><div class="sp-sub-puffs-startpage-peach-puff-preamble">Börja studera våren 2026.</div></div></div></div><div class="sp-sub-puffs-startpage-right-column"><div class="sp-sub-puffs-startpage-right-column-top-row"><div class="sp-info-card-lightblue sp-info-card"><div class="sv-text-portlet-content"><p class="normal">7000+</p><p class="normal">STUDENTER</p></div></div><div class=" sp-info-card sp-info-card-orange"><div class="sv-text-portlet-content"><p class="normal">31</p><p class="normal">PROGRAM</p></div></div></div><div class="sp-sub-puffs-startpage-blue-puff sp-sub-puffs-startpage-blue-puff-link"><div class="sp-sub-puffs-startpage-blue-puff-img-container c1415" ></div><div class="sp-sub-puffs-startpage-blue-puff-embedded-block"><div class="sp-sub-puffs-startpage-blue-puff-header">Våra forskningsområden</div><a href="/forskning/forskningsomraden" class="sp-sub-puffs-startpage-blue-puff-link-text">FORSKNING VID BTH</a><i class="icon-arrow-right"></i></div></div></div></div></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.5b7a62d6192bd21b96282c','12.5b7a62d6192bd21b96282c','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.5b7a62d6192bd21b96282c',{"peachPuffHeader":"Sen anmälan är fortfarande öppen!","peachPuffLinkText":"VÅRA UTBILDNINGAR","peachPuffPreambleText":"Börja studera våren 2026.","peachPuffUri":"/utbildning","peachPuffImageHtml":"\u003cimg src=\"/images/200.179b45521969f7985a813b81/1746789873502/240826-Upprop-21.webp\" loading=\"lazy\" srcset=\"/images/200.179b45521969f7985a813b81/1746789873502/x160p/240826-Upprop-21.webp 160w, /images/200.179b45521969f7985a813b81/1746789873502/x320p/240826-Upprop-21.webp 320w, /images/200.179b45521969f7985a813b81/1746789873502/x480p/240826-Upprop-21.webp 480w, /images/200.179b45521969f7985a813b81/1746789873502/x640p/240826-Upprop-21.webp 640w, /images/200.179b45521969f7985a813b81/1746789873502/x800p/240826-Upprop-21.webp 800w, /images/200.179b45521969f7985a813b81/1746789873502/240826-Upprop-21.webp 850w\" sizes=\"100vw\" class=\"sv-noborder sp-sub-puffs-startpage-peach-puff-img-container\" alt=\"\">","hideInfoBoxes":false,"blueInfoBoxHeader":"7000+","blueInfoBoxText":"STUDENTER","peachInfoBoxHeader":"31","peachInfoBoxText":"PROGRAM","bluePuffHeader":"Våra forskningsområden","bluePuffLinkText":"FORSKNING VID BTH","bluePuffUri":"/forskning/forskningsomraden","bluePuffImageUri":"/images/18.179b45521969f7985a813b83/1746789937066/Ingenjorer-Volvo-2023-265.webp"});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'subPuffsStartpage|0.0.1',htmlElementId:'svid12_5b7a62d6192bd21b96282c',route:'/',portletId:'12.5b7a62d6192bd21b96282c',locale:'sv',defaultLocale:'en',webAppId:'subPuffsStartpage',webAppVersion:'0.0.1',webAppAopId:'360.2b8ca71b191e4e6928862b3',webAppImportTime:'1744033600604',requiredLibs:{"react":"17.0.2"}});</script></div>
+</div>
+</div>
+<div class="sv-fluid-grid sv-grid-full-1680px sv-layout sp-startpage-news" id="svid10_5b7a62d6192bd21b962830"><div class="sv-fluid-grid sv-grid-content sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b962831"><div class="sv-row sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b962832"><div class="sv-text-portlet sv-use-margins sv-skip-spacer" id="svid12_5b7a62d6192bd21b962833"><div id="Text2"><!-- Text 2 --></div><div class="sv-text-portlet-content"><ul class="sv-list-style-lankblock normal"><li><a href="/nyheter">Visa alla nyheter</a></li></ul></div></div>
+<div class="sv-text-portlet sv-use-margins" id="svid12_5b7a62d6192bd21b962835"><div id="Text3"><!-- Text 3 --></div><div class="sv-text-portlet-content"><h2 class="subheading" id="h-Utforskasenastenytt">Utforska senaste nytt</h2></div></div>
+<div class="sv-archive-portlet sv-portlet sv-hide-sv-bp-mobile-small sv-hide-sv-bp-mobile sv-hide-sv-bp-mobile-big-768px sv-hide-sv-bp-tablet sp-startpage-news-big" id="svid12_5b7a62d6192bd21b962836"><div id="Nyhetbig"><!-- Nyhet - big --></div><ul class="sv-channel sv-defaultlist ">
+      <li class="sv-channel-item">
+   
+      
+      
+      
+
+                 <div class="news-item news-item-big">
+   
+   <div class="news-item-image">
+   	<img src="/images/200.685fe544199c8e4991d42504/1761052370864/210902-BTH-Marco-Bertoni-33.webp" srcset="/images/200.685fe544199c8e4991d42504/1761052370864/x160p/210902-BTH-Marco-Bertoni-33.webp 160w, /images/200.685fe544199c8e4991d42504/1761052370864/x320p/210902-BTH-Marco-Bertoni-33.webp 320w, /images/200.685fe544199c8e4991d42504/1761052370864/x480p/210902-BTH-Marco-Bertoni-33.webp 480w, /images/200.685fe544199c8e4991d42504/1761052370864/210902-BTH-Marco-Bertoni-33.webp 600w" sizes="100vw" class="sv-noborder" alt="">   
+   </div>
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-10-21T14:55:20+02:00">21 oktober 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                  
+2000
+ <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-10-21-14-bth-forskare-bland-varldens-mest-inflytelserika">
+         <span>14 BTH-forskare bland världens mest inflytelserika</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                                   <span class="normal"><strong>Hela 14 forskare vid BTH finns med på Stanford/Elsevier-listan över världens 2 procent mest inflytelserika forskare. Att vara med på listan är ett kvitto på att forskningen fått genomslag internationellt.</strong> </span>
+         
+   
+         
+      
+      
+      
+
+                 </div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+</ul>
+
+
+
+</div>
+<div class="sv-archive-portlet sv-portlet sv-hide-sv-bp-mobile-small sv-hide-sv-bp-mobile sv-hide-sv-bp-mobile-big-768px sv-hide-sv-bp-tablet sp-startpage-news-list" id="svid12_5b7a62d6192bd21b962837"><div id="Nyheter"><!-- Nyheter --></div><ul class="sv-channel sv-defaultlist ">
+                         <li class="sv-channel-item c1459" >
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.781d8b4d199c8f345a520c3b/1760527936288/Kartik-Bist-1.jpg" srcset="/images/200.781d8b4d199c8f345a520c3b/1760527936288/x160p/Kartik-Bist-1.jpg 160w, /images/200.781d8b4d199c8f345a520c3b/1760527936288/x320p/Kartik-Bist-1.jpg 320w, /images/200.781d8b4d199c8f345a520c3b/1760527936288/x480p/Kartik-Bist-1.jpg 480w, /images/200.781d8b4d199c8f345a520c3b/1760527936288/Kartik-Bist-1.jpg 600w" sizes="100vw" class="sv-noborder" alt="">    
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-10-15T13:32:05+02:00">15 oktober 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-10-15-tag-chansen-att-studera-utomlands">
+         <span>Tag chansen att studera utomlands</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                 <span class="normal">Just nu pågår Erasmus Days - ett initiativ för att uppmärksamma de möjligheter som finns för studenter att studera utomlands.</span>
+</div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+                         <li class="sv-channel-item c1459" >
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.5dbac98519931d365f269bc9/1759217304706/250929-Polsk-Ambassador-2.webp" srcset="/images/200.5dbac98519931d365f269bc9/1759217304706/x160p/250929-Polsk-Ambassador-2.webp 160w, /images/200.5dbac98519931d365f269bc9/1759217304706/x320p/250929-Polsk-Ambassador-2.webp 320w, /images/200.5dbac98519931d365f269bc9/1759217304706/x480p/250929-Polsk-Ambassador-2.webp 480w, /images/200.5dbac98519931d365f269bc9/1759217304706/250929-Polsk-Ambassador-2.webp 600w" sizes="100vw" class="sv-noborder" alt="">    
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-09-30T09:28:08+02:00">30 september 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-09-30-polens-ambassador-pa-besok">
+         <span>Polens ambassadör på besök</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                 <span class="normal">Under gårdagen besökte Polens ambassadör Karolina Ostrzyniewska BTH. Hon fick en presentation av BTH:s satsningar inom marin teknik och de samarbeten som idag finns med Polen.</span>
+</div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+      <li class="sv-channel-item">
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.7bc6fce31993221716f3008f/1758272101109/250919-SSK-Dagen-6.webp" srcset="/images/200.7bc6fce31993221716f3008f/1758272101109/x160p/250919-SSK-Dagen-6.webp 160w, /images/200.7bc6fce31993221716f3008f/1758272101109/x320p/250919-SSK-Dagen-6.webp 320w, /images/200.7bc6fce31993221716f3008f/1758272101109/x480p/250919-SSK-Dagen-6.webp 480w, /images/200.7bc6fce31993221716f3008f/1758272101109/250919-SSK-Dagen-6.webp 600w" sizes="100vw" class="sv-noborder" alt="">    
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-09-19T10:54:56+02:00">19 september 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-09-19-elever-far-prova-pa-sjukskoterskeyrket-for-en-dag">
+         <span>Elever får prova på sjuksköterskeyrket för en dag</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                 <span class="normal">Det sjuder av aktivitet idag då BTH arrangerar en mässa med fokus på sjuksköterskeyrket där högstadie- och gymnasieelever får prova på hur det är att vara sjuksköterska för en dag.</span>
+</div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+</ul>
+
+
+
+</div>
+<div class="sv-archive-portlet sv-portlet sv-visible-sv-bp-mobile-small sv-visible-sv-bp-mobile sv-visible-sv-bp-mobile-big-768px sv-visible-sv-bp-tablet sp-slider-news sp-startpage-news-list" id="svid12_5b7a62d6192bd21b962838"><div id="Nyhetermobil"><!-- Nyheter-mobil --></div><ul class="sv-channel sv-defaultlist ">
+                         <li class="sv-channel-item c1459" >
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.685fe544199c8e4991d42504/1761052370864/210902-BTH-Marco-Bertoni-33.webp" srcset="/images/200.685fe544199c8e4991d42504/1761052370864/x160p/210902-BTH-Marco-Bertoni-33.webp 160w, /images/200.685fe544199c8e4991d42504/1761052370864/x320p/210902-BTH-Marco-Bertoni-33.webp 320w, /images/200.685fe544199c8e4991d42504/1761052370864/x480p/210902-BTH-Marco-Bertoni-33.webp 480w, /images/200.685fe544199c8e4991d42504/1761052370864/210902-BTH-Marco-Bertoni-33.webp 600w" sizes="100vw" class="sv-noborder" alt="">
+      
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-10-21T14:55:20+02:00">21 oktober 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-10-21-14-bth-forskare-bland-varldens-mest-inflytelserika">
+         <span>14 BTH-forskare bland världens mest inflytelserika</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                                   <span class="normal"><strong>Hela 14 forskare vid BTH finns med på Stanford/Elsevier-listan över världens 2 procent mest inflytelserika forskare. Att vara med på listan är ett kvitto på att forskningen fått genomslag internationellt.</strong> </span>
+         
+   
+         
+      
+      
+      
+
+                 </div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+                         <li class="sv-channel-item c1459" >
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.781d8b4d199c8f345a520c3b/1760527936288/Kartik-Bist-1.jpg" srcset="/images/200.781d8b4d199c8f345a520c3b/1760527936288/x160p/Kartik-Bist-1.jpg 160w, /images/200.781d8b4d199c8f345a520c3b/1760527936288/x320p/Kartik-Bist-1.jpg 320w, /images/200.781d8b4d199c8f345a520c3b/1760527936288/x480p/Kartik-Bist-1.jpg 480w, /images/200.781d8b4d199c8f345a520c3b/1760527936288/Kartik-Bist-1.jpg 600w" sizes="100vw" class="sv-noborder" alt="">
+      
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-10-15T13:32:05+02:00">15 oktober 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-1
+2000
+0-15-tag-chansen-att-studera-utomlands">
+         <span>Tag chansen att studera utomlands</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                                   <span class="normal">Just nu pågår Erasmus Days - ett initiativ för att uppmärksamma de möjligheter som finns för studenter att studera utomlands.</span>
+         
+   
+         
+      
+      
+      
+
+                 </div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+                         <li class="sv-channel-item c1459" >
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.5dbac98519931d365f269bc9/1759217304706/250929-Polsk-Ambassador-2.webp" srcset="/images/200.5dbac98519931d365f269bc9/1759217304706/x160p/250929-Polsk-Ambassador-2.webp 160w, /images/200.5dbac98519931d365f269bc9/1759217304706/x320p/250929-Polsk-Ambassador-2.webp 320w, /images/200.5dbac98519931d365f269bc9/1759217304706/x480p/250929-Polsk-Ambassador-2.webp 480w, /images/200.5dbac98519931d365f269bc9/1759217304706/250929-Polsk-Ambassador-2.webp 600w" sizes="100vw" class="sv-noborder" alt="">
+      
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-09-30T09:28:08+02:00">30 september 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-09-30-polens-ambassador-pa-besok">
+         <span>Polens ambassadör på besök</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                                   <span class="normal">Under gårdagen besökte Polens ambassadör Karolina Ostrzyniewska BTH. Hon fick en presentation av BTH:s satsningar inom marin teknik och de samarbeten som idag finns med Polen.</span>
+         
+   
+         
+      
+      
+      
+
+                 </div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+      <li class="sv-channel-item">
+   
+      
+      
+      
+
+                 <div class="news-item">
+   <div class="news-item-image">
+      <img src="/images/200.7bc6fce31993221716f3008f/1758272101109/250919-SSK-Dagen-6.webp" srcset="/images/200.7bc6fce31993221716f3008f/1758272101109/x160p/250919-SSK-Dagen-6.webp 160w, /images/200.7bc6fce31993221716f3008f/1758272101109/x320p/250919-SSK-Dagen-6.webp 320w, /images/200.7bc6fce31993221716f3008f/1758272101109/x480p/250919-SSK-Dagen-6.webp 480w, /images/200.7bc6fce31993221716f3008f/1758272101109/250919-SSK-Dagen-6.webp 600w" sizes="100vw" class="sv-noborder" alt="">
+      
+   </div>
+   
+   <div class="news-item-text">
+         
+      
+      
+      
+
+                       <time class="normal" datetime="2025-09-19T10:54:56+02:00">19 september 2025</time>
+   
+   
+
+         
+      
+      
+      
+
+                                   <h3 class="subheading3"><a href="/nyheter/nyhetsarkiv/2025-09-19-elever-far-prova-pa-sjukskoterskeyrket-for-en-dag">
+         <span>Elever får prova på sjuksköterskeyrket för en dag</span>
+         </a></h3>         
+         
+   
+         
+      
+      
+      
+
+                                   <span class="normal">Det sjuder av aktivitet idag då BTH arrangerar en mässa med fokus på sjuksköterskeyrket där högstadie- och gymnasieelever får prova på hur det är att vara sjuksköterska för en dag.</span>
+         
+   
+         
+      
+      
+      
+
+                 </div></div>
+         
+      <div class="sv-clear-both"></div>
+   </li>
+</ul>
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="sv-fluid-grid sv-grid-full-1680px sv-layout sp-startpage-calender" id="svid10_5b7a62d6192bd21b962839"><div class="sv-fluid-grid sv-grid-content sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b96283a"><div class="sv-row sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b96283b"><div class="sv-text-portlet sv-use-margins sv-skip-spacer" id="svid12_5b7a62d6192bd21b96283c"><div id="Text1"><!-- Text 1 --></div><div class="sv-text-portlet-content"><ul class="sv-list-style-lankblock normal"><li><a href="/evenemang">Kalender</a></li></ul></div></div>
+<div class="sv-text-portlet sv-use-margins" id="svid12_5b7a62d6192bd21b96283e"><div id="Text"><!-- Text --></div><div class="sv-text-portlet-content"><h2 class="subheading" id="h-Sevadsomhanderhososs">Se vad som händer hos oss</h2></div></div>
+<div class="sv-predefinedsearch-portlet sv-portlet sv-hide-sv-bp-mobile-small sv-hide-sv-bp-mobile sv-hide-sv-bp-mobile-big-768px sv-hide-sv-bp-tablet sp-startpage-calendar-list" id="svid12_5b7a62d6192bd21b96283f"><div id="Soklistning"><!-- Söklistning --></div>
+         
+
+
+
+
+
+
+
+<ol  start="1"  class="sp-startpage-calender-grid sv-search-result sv-defaultlist-noleft">
+      
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">24</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-01-licentiatseminarium-i-programvaruteknik" class="subheading3">Licentiatseminarium i programvaruteknik</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+            
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">28</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-13-mojligheternas-dag" class="subheading3">Möjligheternas dag</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+            
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">30</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-08-oppen-forelasning-for-utnamning-som-docent" class="subheading3">Öppen föreläsning för utnämning som docent</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+            
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">31</span><span class="calendar-month"> oktober</span><span class="calendar-month
+2000
+-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-21-oppen-forelasning-for-utnamning-till-docent" class="subheading3">Öppen föreläsning för utnämning till docent</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+         </ol>
+
+   </div>
+<div class="sv-predefinedsearch-portlet sv-portlet sv-visible-sv-bp-mobile-small sv-visible-sv-bp-mobile sv-visible-sv-bp-mobile-big-768px sv-visible-sv-bp-tablet sp-startpage-calendar-list" id="svid12_5b7a62d6192bd21b962840"><div id="Soklistningmobil"><!-- Söklistning - mobil --></div>
+         
+
+
+
+
+
+
+
+<ol start="1" class="sp-startpage-calender-grid sv-search-result sv-defaultlist-noleft sp-slider-events">
+      
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">24</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-01-licentiatseminarium-i-programvaruteknik" class="subheading3">Licentiatseminarium i programvaruteknik</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+            
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">28</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-13-mojligheternas-dag" class="subheading3">Möjligheternas dag</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+            
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">30</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-08-oppen-forelasning-for-utnamning-som-docent" class="subheading3">Öppen föreläsning för utnämning som docent</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+            
+      <li class="sp-startpage-calender-grid-cell sv-search-hit">
+         <div class="sp-startpage-calender-grid-item">
+            <div class="sp-startpage-calender-grid-item-date">
+               <span class="calendar-day">31</span><span class="calendar-month"> oktober</span><span class="calendar-month-mini"> okt</span>
+            </div>
+            <div class="sp-startpage-calender-grid-item-text">
+                                                            <div class="env-m-top--0">
+                                                                                                   
+                     
+                                                               <a href="/evenemang/evenemang/2025-10-21-oppen-forelasning-for-utnamning-till-docent" class="subheading3">Öppen föreläsning för utnämning till docent</a>
+                                 </div>
+               
+               
+                              
+                              
+                           </div>
+         </div>
+      </li>
+         </ol>
+
+
+   </div>
+</div>
+</div>
+</div>
+<div class="sv-vertical sv-layout sp-video-block" id="svid10_5b7a62d6192bd21b962841"><div class="sv-fixed-fluid-grid sv-grid-content sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b962842"><div class="sv-row sv-layout sv-skip-spacer" id="svid10_5b7a62d6192bd21b962843"><div class="sv-layout sv-skip-spacer sv-column-5" id="svid10_5b7a62d6192bd21b962844"><div class="sv-text-portlet sv-use-margins sv-skip-spacer" id="svid12_5b7a62d6192bd21b962845"><div id="Text-0"><!-- Text --></div><div class="sv-text-portlet-content"><ul class="sv-list-style-lankblock normal"><li><a href="/utbildning">Våra utbildningar</a></li></ul><h2 class="subheading" id="h-Utbildningsomdriverinnovation">Utbildning som driver innovation</h2><p class="normal">BTH erbjuder professionsinriktade utbildningar och fokuserar på samhällets framtida behov och utmaningar. Som teknisk högskola är vårt främsta verktyg innovation.<br>Här berättar studenterna Hassan, Albert och Fabian om sitt företag Pavesight – som använder AI för att automatiskt upptäcka vägskador.</p></div></div>
+</div>
+<div class="sv-layout sv-column-7" id="svid10_5b7a62d6192bd21b962847"><div class="sv-custom-module sv-marketplace-mediaflow-mediaflow sv-skip-spacer" id="svid12_1d612326194d82b9883cdec"><div id="Mediaflow1"><!-- Mediaflow 1 --></div><div id="mfvaju2ds"></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">if(!document.querySelector('link[href="https://mfstatic.com/css/mediaflowplayer.min.css"]')){const mflaju2ds=document.createElement('link');mflaju2ds.setAttribute('rel','stylesheet');mflaju2ds.setAttribute('type','text/css');mflaju2ds.setAttribute('href','https://mfstatic.com/css/mediaflowplayer.min.css');document.getElementsByTagName('head')[0].appendChild(mflaju2ds);}if(typeof(MFPlayer)=='undefined'){const mfsaju2ds=document.createElement('script');mfsaju2ds.setAttribute('crossorigin','anonymous');document.body.appendChild(mfsaju2ds);mfsaju2ds.onload=function(){new MFPlayer('#mfvaju2ds','34DFHX3GMH', {"autoPlay":false});};mfsaju2ds.src='https://mfstatic.com/js/mediaflowplayer.min.js';}else{new MFPlayer('mfvaju2ds','34DFHX3GMH', {"autoPlay":false});}</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'marketplace.mediaflow.mediaflow|2.1.2',htmlElementId:'svid12_1d612326194d82b9883cdec',route:'/',portletId:'12.1d612326194d82b9883cdec',locale:'sv',defaultLocale:'en',webAppId:'marketplace.mediaflow.mediaflow',webAppVersion:'2.1.2',webAppAopId:'360.447becf198bb75f5da6be4',webAppImportTime:'1755619310489',requiredLibs:{}});</script></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sv-row sv-layout" id="svid10_6a1930fe1999e2487ad1d6"><div class="sv-layout sv-skip-spacer sv-column-1" id="svid10_6a1930fe1999e2487ad1e7"></div>
+<div class="sv-layout sv-column-5" id="svid10_6a1930fe1999e2487ad1e8"><div class="sv-
+2000
+image-portlet sv-portlet sv-skip-spacer" id="svid12_2cd92ed197a1b2bbcd12e47"><div id="Bild"><!-- Bild --></div><div class="sv-vertical sv-layout sp-decoration-remove-rounded-corners sv-skip-spacer"><div class="sv-vertical sv-layout sv-skip-spacer sv-decoration-content"><a href="https://www.bauhaus4.eu/"><img alt="Bauhaus4EU logotyp" class="sv-noborder c1485"  width="380" height="71" srcset="/images/18.6a1930fe1999e2487ad1dc/1759299254568/x160p/BAUHAUS4EU_380x71.png 160w, /images/18.6a1930fe1999e2487ad1dc/1759299254568/x320p/BAUHAUS4EU_380x71.png 320w, /images/18.6a1930fe1999e2487ad1dc/1759299254568/BAUHAUS4EU_380x71.png 380w" sizes="100vw" src="/images/18.6a1930fe1999e2487ad1dc/1759299254568/BAUHAUS4EU_380x71.png"></a></div>
+</div>
+</div>
+</div>
+<div class="sv-layout sv-column-6 c1488"  id="svid10_6a1930fe1999e2487ad1db"><div class="sv-image-portlet sv-portlet sv-skip-spacer" id="svid12_154784ae198e626b3a29a46"><div id="Bild1"><!-- Bild 1 --></div><div class="sv-vertical sv-layout sp-decoration-remove-rounded-corners sv-skip-spacer"><div class="sv-vertical sv-layout sv-skip-spacer sv-decoration-content"><img alt="EU logotyp" class="sv-noborder c1487"  width="346" height="71" srcset="/images/18.6a1930fe1999e2487ad1e5/1759299460248/x160p/(2)%20EN_Co-fundedbytheEU_RGB_POS-346x71.png 160w, /images/18.6a1930fe1999e2487ad1e5/1759299460248/x320p/(2)%20EN_Co-fundedbytheEU_RGB_POS-346x71.png 320w, /images/18.6a1930fe1999e2487ad1e5/1759299460248/(2)%20EN_Co-fundedbytheEU_RGB_POS-346x71.png 346w" sizes="100vw" src="/images/18.6a1930fe1999e2487ad1e5/1759299460248/(2)%20EN_Co-fundedbytheEU_RGB_POS-346x71.png"></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div></div>
+</main>
+<footer class="sv-vertical sv-layout sv-template-layout" id="svid10_3d4e01e718f3783f9d51ab"><div class="sv-fluid-grid sv-grid-full-1680px sv-layout sv-skip-spacer sv-template-layout" id="svid10_72b295211919732c26dff"><div class="sv-custom-module sv-marketplace-sitevision-toTop sv-skip-spacer sv-template-portlet
+" id="svid12_446c6d0a19178405669411"><div id="Tilltoppen"><!-- Till toppen --></div><div data-cid="12.446c6d0a19178405669411"></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.446c6d0a19178405669411','12.446c6d0a19178405669411','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.446c6d0a19178405669411',{"color":"default","icon":"arrowBoldUp","distanceToShowIcon":"1","position":"right","size":"small","visibleInMobile":true,"useLabel":true,"borderRadius":"borderMedium"});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'marketplace.sitevision.toTop|2.1.0',htmlElementId:'svid12_446c6d0a19178405669411',route:'/',portletId:'12.446c6d0a19178405669411',locale:'sv',defaultLocale:'en',webAppId:'marketplace.sitevision.toTop',webAppVersion:'2.1.0',webAppAopId:'360.17e26f521967ca07dff45df',webAppImportTime:'1745942511984',requiredLibs:{"react":"18.3.1"},childComponentStateExtractionStrategy:'BY_ID'});</script></div>
+<div class="sv-vertical sv-layout sv-template-layout" id="svid10_78010c411932979f7b019f3"><div class="sv-vertical sv-layout sv-skip-spacer sv-template-layout" id="svid93_78010c411932979f7b019f4"><div class="sv-layout sv-skip-spacer sv-template-portlet
+" id="svid30_3d4e01e718f3783f9d5318"><div id="Sidfotsinnehall"><!-- Sidfotsinnehåll --></div><div class="sv-fluid-grid sv-grid-content sv-layout sv-skip-spacer sv-template-layout" id="svid10_3cc9576d190a64a34cda5ee"><div class="sv-row sv-layout sv-skip-spacer sv-template-layout" id="svid10_3cc9576d190a64a34cda5e7"><div class="sv-layout sv-skip-spacer sv-column-5 sv-template-layout" id="svid10_3cc9576d190a64a34cda5e8"><div class="sv-text-portlet sv-use-margins sp-footer-column-header sv-skip-spacer sv-template-portlet
+" id="svid12_3d4e01e718f3783f9d52c0"><div id="Rubrik"><!-- Rubrik --></div><div class="sv-text-portlet-content"><h2 class="subheading" id="h-Kontakt">Kontakt</h2></div></div>
+<div class="sv-text-portlet sv-use-margins sv-template-portlet
+" id="svid12_446c6d0a191784056693b4"><div id="Text-1"><!-- Text --></div><div class="sv-text-portlet-content"><p class="normal">Adress: Blekinge Tekniska Högskola, 371 79 Karlskrona <br>Telefon: 0455 - 38 50 00 <br>E-post: <a href="mailto:info@bth.se">info@bth.se</a></p></div></div>
+</div>
+<div class="sv-layout sv-column-3 sv-template-layout" id="svid10_3cc9576d190a64a34cda5e9"><div class="sv-text-portlet sv-use-margins sp-footer-column-header sv-skip-spacer sv-template-portlet
+" id="svid12_3cc9576d190a64a34cda5eb"><div id="Rubrik-0"><!-- Rubrik --></div><div class="sv-text-portlet-content"><h2 class="subheading" id="h-Genvagar">Genvägar</h2></div></div>
+<div class="sv-text-portlet sv-use-margins sv-template-portlet
+" id="svid12_446c6d0a191784056693b6"><div id="Text-2"><!-- Text --></div><div class="sv-text-portlet-content"><p class="normal"><a href="https://www.bth.se/canvas/">Canvas log-in</a><br><a href="https://bthse.sharepoint.com/">För personal - Inside</a><br><a href="/om-bth/kontakta-oss/pressrum">Pressrum</a></p></div></div>
+</div>
+<div class="sv-layout sv-column-4 sv-template-layout" id="svid10_3cc9576d190a64a34cda5ea"><div class="sv-text-portlet sv-use-margins sp-footer-column-header sv-skip-spacer sv-template-portlet
+" id="svid12_3cc9576d190a64a34cda5ec"><div id="Rubrik-1"><!-- Rubrik --></div><div class="sv-text-portlet-content"><h2 class="subheading" id="h-Bralankar">Bra länkar</h2></div></div>
+<div class="sv-text-portlet sv-use-margins sv-template-portlet
+" id="svid12_446c6d0a191784056693b9"><div id="Text-3"><!-- Text --></div><div class="sv-text-portlet-content"><p class="normal"><a href="/om-bth/kontakta-oss/vid-kris">I händelse av kris</a><br><a href="/om-bth/hitta-hit">Hitta till BTH</a><br><a href="/om-bth/jobba-hos-oss/lediga-jobb">Lediga jobb</a><br></p></div></div>
+</div>
+</div>
+<div class="sv-row sv-layout sp-footer-social-media sv-template-layout" id="svid10_3cc9576d190a64a34cda5ef"><div class="sv-layout sv-skip-spacer sv-column-12 sv-template-layout" id="svid10_3cc9576d190a64a34cda5f1"><div class="sv-text-portlet sv-use-margins sv-skip-spacer sv-template-portlet
+" id="svid12_3cc9576d190a64a34cda5f0"><div id="Text-4"><!-- Text --></div><div class="sv-text-portlet-content"><p class="normal">Följ oss: <a title="Bth på Facebook" href="https://www.facebook.com/BTHofficiell/?locale=sv_SE">facebook</a> / <a title="Bth på Instagram" href="https://www.instagram.com/bth_blekingetekniskahogskola/">instagram</a> / <a title="Bth på Youtube" href="https://www.youtube.com/@BTHInformation">youtube</a> / <a title="Bth på LinkedIn" href="https://se.linkedin.com/school/blekinge-institute-of-technology/">linkedin</a></p></div></div>
+</div>
+</div>
+<div class="sv-row sv-layout sv-template-layout" id="svid10_3cc9576d190a64a34cda5e4"><div class="sv-layout sv-skip-spacer sv-column-12 sv-template-layout" id="svid10_3cc9576d190a64a34cda5e5"><div class="sv-script-portlet sv-portlet sv-visible-sv-bp-desktop sv-visible-sv-bp-tablet sv-skip-spacer sv-template-portlet
+" id="svid12_5ebaf1cc1969f5dae882b85c"><div id="Skriptdesktoptextlogga"><!-- Skript - desktop text-logga --></div><div class="sp-logo-footer--wrapper">
+   <p class="sp-logo-footer--text">
+      Blekinge Tekniska Högskola
+   </p>
+</div></div>
+<div class="sv-image-portlet sv-portlet sv-visible-sv-bp-mobile sv-visible-sv-bp-mobile-big-768px sv-visible-sv-bp-mobile-small sv-template-portlet
+" id="svid12_6097f60b191972bab8d1e26d"><div id="Bild1-0"><!-- Bild 1 --></div><img alt="" class="sv-noborder sv-svg c1448"  width="240" height="239" src="/images/18.6097f60b191972bab8d1e26c/1726033984319/bth-footer-mobile.svg"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="sv-custom-module sv-marketplace-sitevision-cookie-consent sv-template-portlet
+" id="svid12_3d4e01e718f3783f9d5174"><div id="Cookiebanner"><!-- Cookie-banner --></div><div data-cid="12.3d4e01e718f3783f9d5174"><div class="env-modal-dialog oHJ5jYD6hE4G0dWjJEyW sv-cookie-consent-modal env-modal-dialog--show env-modal-dialog--inner-scroll LaJqpGNhg_GETNxRY5qw" role
+2000
+="dialog" aria-hidden="false" aria-modal="true" aria-labelledby="sv_JieuI2NAguAxFfqLwghFj" tabindex="-1" data-nosnippet="true"><div class="env-modal-dialog__dialog" data-testid="modal-dialog"><section class="env-modal-dialog__content" aria-live="polite"><header class="env-modal-dialog__header"><h2 class="env-modal-dialog__header__title env-text-h4" id="sv_JieuI2NAguAxFfqLwghFj">Vi använder kakor</h2></header><div class="env-modal-dialog__body"><div class="env-flex  env-flex--column"><p class="env-text">På denna webbplats används kakor (cookies) för att webbplatsen ska fungera så bra som möjligt och för att vi ska kunna förbättra och utveckla den efter dina behov.</p><p class="env-m-top--x-small env-text"><a class="env-link" href="/om-bth/myndigheten-bth/om-webbplatsen-bth.se/cookie-policy" rel="" target="_self">Läs mer i vår cookiepolicy</a></p></div></div><footer class="env-modal-dialog__footer faKMEo5bnDu4BUB1ZuL5"><form method="post" class="env-d--flex" action="/?sv.target=12.3d4e01e718f3783f9d5174&amp;sv.12.3d4e01e718f3783f9d5174.route=%2Fconsent-settings"><input type="hidden" name="necessary" value="necessary"/><input type="hidden" name="sv.csrfToken"/><button type="submit" class="env-button env-button--primary">Godkänn nödvändiga kakor</button></form><form method="post" class="env-d--flex" action="/?sv.target=12.3d4e01e718f3783f9d5174&amp;sv.12.3d4e01e718f3783f9d5174.route=%2Fconsent-settings"><input type="hidden" name="analytics" value="analytics"/><input type="hidden" name="marketing" value="marketing"/><input type="hidden" name="custom" value="custom"/><input type="hidden" name="functional" value="functional"/><input type="hidden" name="sv.csrfToken"/><button type="submit" class="env-button env-button--primary">Godkänn alla kakor</button></form><button type="button" class="env-button env-button--link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="env-icon env-icon--x-small env-p-right--x-small oseRz4A_uSoCHsamnNdQ" aria-hidden="true"><path d="M23.21,17.45H13.98c-.39-2.07-2.25-3.7-4.41-3.7s-4.05,1.57-4.42,3.7H.79c-.44,0-.79,.36-.79,.79s.36,.79,.79,.79H5.16c.39,2.07,2.25,3.7,4.41,3.7s4.05-1.57,4.42-3.7h9.22c.44,0,.79-.36,.79-.79s-.36-.79-.79-.79Zm-13.64,3.7c-1.58,0-2.91-1.33-2.91-2.91s1.28-2.91,2.91-2.91,2.91,1.33,2.91,2.91-1.28,2.91-2.91,2.91Z"></path><path d="M.79,6.55H15.09c.37,2.13,2.17,3.7,4.42,3.7,2.52,0,4.49-1.97,4.49-4.49s-1.97-4.49-4.49-4.49c-2.25,0-4.05,1.57-4.42,3.7H.79c-.44,0-.79,.36-.79,.79s.36,.79,.79,.79ZM19.51,2.85c1.63,0,2.91,1.28,2.91,2.91s-1.28,2.91-2.91,2.91-2.91-1.28-2.91-2.91,1.28-2.91,2.91-2.91Z"></path></svg>Anpassa inställningar</button></footer></section></div></div><div class="env-modal-dialog__backdrop env-modal-dialog__backdrop--in" data-testid="modal-backdrop"></div></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.3d4e01e718f3783f9d5174','12.3d4e01e718f3783f9d5174','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.3d4e01e718f3783f9d5174',{"settings":{"displayType":"modal","message":"På denna webbplats används kakor (cookies) för att webbplatsen ska fungera så bra som möjligt och för att vi ska kunna förbättra och utveckla den efter dina behov.","settingsSubTitle":null,"cookiePolicyUri":"/om-bth/myndigheten-bth/om-webbplatsen-bth.se/cookie-policy","title":"Vi använder kakor","cookiePolicyLinkText":"Läs mer i vår cookiepolicy","usePolicyPage":true,"manageButtonText":"Hantera cookies","buttonType":"acceptNecessaryAndAll","openLinkInNewTab":false,"usePiwikPro":true},"categories":[{"id":"necessary","title":"Nödvändiga cookies","description":"Gör att våra tjänster är säkra och fungerar som de ska. Därför går de inte att inaktivera.","hasConsent":true},{"id":"analytics","title":"Analytiska cookies","description":"Ger oss information om hur vår webbplats används som gör att vi kan underhålla, driva och förbättra användarupplevelsen.","hasConsent":false,"cookies":["sv-internal-sv-web-analytics","pkses","pkid","ontame_id","ontameses","analytics-ontame"]}],"displayOptions":{"consentOpen":true,"settingsOpen":false},"baseHeadingLevel":2,"customButtonTexts":{"acceptAllCookies":null,"acceptNecessaryCookies":null,"settings":null,"saveAndAccept":null},"useCustomButtonTexts":false});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'marketplace.sitevision.cookie-consent|1.11.2',htmlElementId:'svid12_3d4e01e718f3783f9d5174',route:'/',portletId:'12.3d4e01e718f3783f9d5174',locale:'sv',defaultLocale:'en',webAppId:'marketplace.sitevision.cookie-consent',webAppVersion:'1.11.2',webAppAopId:'360.51503f281975d5ac35f2e246',webAppImportTime:'1750176115049',requiredLibs:{"react":"18.3.1"},childComponentStateExtractionStrategy:'BY_ID'});</script></div>
+<div class="sv-custom-module sv-marketplace-reakai-rekai-webapp sv-template-portlet
+" id="svid12_1fb7c131191e4de549716ea6"><div id="Rekai"><!-- Rek.ai --></div><div class="rekai-main" data-cid="4919f235-51a8-2a13-c842-2297cb6efe24">
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+
+    window.__rekai = window.__rekai || {};
+    window.__rekai.appdata = window.__rekai.appdata || {};
+    window.__rekai.appdata.seed = '40943067s';
+    window.__rekai.appdata.viewclick = 'true';
+
+
+</script>
+
+
+    
+    <script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">
+    
+        window.rek_viewclick = true;
+        window.__rekai.addedby = 'sv-app';
+    </script>
+
+
+</div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerBootstrapData('12.1fb7c131191e4de549716ea6','4919f235-51a8-2a13-c842-2297cb6efe24','main',[],undefined);</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.1fb7c131191e4de549716ea6',{"renderData":{"appContext":{"portletNS":"12_1fb7c131191e4de549716ea6","appNS":"rekai_12_1fb7c131191e4de549716ea6","viewMode":true,"editMode":false,"appMode":"gather","currentURI":"/"},"uuid":"aa692c9b","isProject":true,"seed":"40943067s","view":true,"rendertype":"list","filters":{"hits":"10","pagetype":"svpage","notpagetype":["svarticle"],"domain":[],"include":"all","includeSubtree":[],"includeSubtreeNodeId":null,"includeSubtreeNode":null,"includeLevel":"1","exclude":"none","excludeSubtree":[],"excludeSubtreeNodeId":null,"excludeSubtreeNode":null},"rendering":{"useHeader":null,"headerText":"Hitta direkt","headerFontNode":"13.3d4e01e718f3783f9d579","headerFontClass":"normal","headerFontHeadingLevel":0,"zebrastripes1":false,"zebrastripes2":false,"zebrastripes3":false,"zebraStripes1ColorNode":"35.3d4e01e718f3783f9d5d3","zebraStripes2ColorNode":"35.3d4e01e718f3783f9d5d3","zebraStripes3ColorNode":"35.3d4e01e718f3783f9d5d3","cols":"1","useImg":true,"fallbackImgNode":null,"fallbackImgURI":"","titleFontNode":"13.3d4e01e718f3783f9d579","titleFontClass":"normal","titleFontHeadingLevel":0,"useIngress":true,"ingressFontNode":"13.3d4e01e718f3783f9d579","ingressFontClass":"normal","ingressHeadingLevel":0,"useIngressLimit":true,"ingressLimit":"80","zebraStripes1ColorHex":"#000000","zebraStripes2ColorHex":"#000000","zebraStripes3ColorHex":"#000000"},"customTags":"","customTagsRaw":"","customTagsArray":[{"key":"","value":""}],"useLegacySettings":false,"legacySettings":{"pagetype":null,"subtreeId":"","subtreePage":null},"nonce":"e7289890-af2a-11f0-9e6e-2da777ea20f5"},"rendering":"{\"useHeader\":null,\"headerText\":\"Hitta direkt\",\"headerFontNode\":\"13.3d4e01e718f3783f9d579\",\"headerFontClass\":\"normal\",\"headerFontHeadingLevel\":0,\"zebrastripes1\":false,\"zebrastripes2\":false,\"zebrastripes3\":false,\"zebraStripes1ColorNode\":\"35.3d4e01e718f3783f9d5d3\",\"zebraStripes2ColorNode\":\"35.3d4e01e718f3783f9d5d3\",\"zebraStripes3ColorNode\":\"35.3d4e01e718f3783f9d5d3\",\"cols\":\"1\",\"useImg\":true,\"fallbackImgNode\":null,\"fallbackImgURI\":\"\",\"titleFontNode\":\"13.3d4e01e718f3783f9d579\",\"titleFontClass\":\"normal\",\"titleFontHeadingLevel\":0,\"useIngress\":true,\"ingressFontNode\":\"13.3d4e01e718f3783f9d579\",\"ingressFontClass\":\"normal\",\"ingressHeadingLevel\":0,\"useIngressLimit\":true,\"ingressLimit
+101a
+\":\"80\",\"zebraStripes1ColorHex\":\"#000000\",\"zebraStripes2ColorHex\":\"#000000\",\"zebraStripes3ColorHex\":\"#000000\"}","route":"/"});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'marketplace.reakai.rekai-webapp|1.6.1',htmlElementId:'svid12_1fb7c131191e4de549716ea6',route:'/',portletId:'12.1fb7c131191e4de549716ea6',locale:'sv',defaultLocale:'en',webAppId:'marketplace.reakai.rekai-webapp',webAppVersion:'1.6.1',webAppAopId:'360.4ac9b01119931e0f6982e72f',webAppImportTime:'1758297711323',requiredLibs:{},childComponentStateExtractionStrategy:'BY_ID'});</script></div>
+<div class="sv-custom-module sv-marketplace-ebbot-ebbot-widget sv-template-portlet
+" id="svid12_5e8cb66197a1e39a70960a"><div id="EbbotChat"><!-- Ebbot Chat --></div><div data-cid="12.5e8cb66197a1e39a70960a"></div><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5" >AppRegistry.registerBootstrapData('12.5e8cb66197a1e39a70960a','12.5e8cb66197a1e39a70960a','AGNOSTIC_RENDERER');</script><script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerInitialState('12.5e8cb66197a1e39a70960a',{"botId":"ebnvw8tz65rxn7asgpe6300jip9ztn","isOvh":true,"cookies":{"ebbot-widget":{"accepted":false,"isNecessary":true},"ebbot-sales-tracking":{"accepted":false,"isNecessary":false}}});</script>
+<script nonce="e7289890-af2a-11f0-9e6e-2da777ea20f5">AppRegistry.registerApp({applicationId:'marketplace.ebbot.ebbot-widget|1.0.1',htmlElementId:'svid12_5e8cb66197a1e39a70960a',route:'/',portletId:'12.5e8cb66197a1e39a70960a',locale:'sv',defaultLocale:'en',webAppId:'marketplace.ebbot.ebbot-widget',webAppVersion:'1.0.1',webAppAopId:'360.eda591e194a7c909a51d28',webAppImportTime:'1738147356320',requiredLibs:{}});</script></div>
+</div>
+
+
+
+
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/jquery.js"></script>
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/envision/envision.js"></script>
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/utils.js"></script>
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/portlets.js"></script>
+
+<script src="/2.3d4e01e718f3783f9d5285/91.3d4e01e718f3783f9d563/1761106528892/BODY/0/sv-template-asset.js"></script>
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/webAppExternals/react_17_0.js"></script>
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/js/webAppExternals/react_18_3.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.29f46a199c901544037f4/1760098802820/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.17e26f521967ca07dff45df/1745942511984/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.447becf198bb75f5da6be4/1755619310489/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.4da826e919010096ed3ec77/1719305951652/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.2b8ca71b191e4e69288aa5/1743431037617/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.781d8b4d199c8f345a53e267/1760943922565/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.4ac9b01119931e0f6982e72f/1758297711323/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.eda591e194a7c909a51d28/1738147356320/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.51503f281975d5ac35f2e246/1750176115049/webapp-assets.js"></script>
+<script src="/webapp-resource/2.3d4e01e718f3783f9d5285/360.2b8ca71b191e4e6928862b3/1744033600604/webapp-assets.js"></script>
+<script src="/sitevision/system-resource/e42bde006aace184a584e2fbe5559653561df5e2dbabe0fc0bc10290348ce02c/webapps/webapp_sdk-legacy.js"></script>
+</body>
+</html>
+0
+

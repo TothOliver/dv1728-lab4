@@ -375,6 +375,26 @@ int main(int argc, char* argv[]) {
         close(sockfd);
         break;
     }
+
+    size_t header_end = response.find("\r\n\r\n");
+    std::string body;
+    if (header_end != std::string::npos)
+        body = response.substr(header_end + 4);
+    else
+        body = response;
+
+    if(output_file == "-" || output_file.empty()){
+        std::cout << body;
+    }
+    else{
+        std::ofstream out(output_file, std::ios::binary);
+        if(!out){
+            std::fprintf(stderr, "error: cannot open output file %s\n", output_file.c_str());
+            return EXIT_FAILURE;
+        }
+        out.write(body.data(), body.size());
+        out.close();
+    }
     
     int resp_body_size=0xFACCE;
     auto t2 = clock::now();
