@@ -280,7 +280,6 @@ int main(int argc, char* argv[]) {
                 close(sockfd);
                 return EXIT_FAILURE;
             }
-            std::printf("SSL connected\n");
         }
 
         std::ostringstream request;
@@ -300,7 +299,6 @@ int main(int argc, char* argv[]) {
                 close(sockfd);
                 return EXIT_FAILURE;
             }
-            printf("Send: %zd bytes (https)\n", byte_sent);
         }
         else{
             size_t byte_sent = send(sockfd, request_str.c_str(), request_str.size(), 0);
@@ -309,7 +307,6 @@ int main(int argc, char* argv[]) {
                 close(sockfd);
                 return EXIT_FAILURE;
             }   
-            printf("Send: %zd bytes (http)\n", byte_sent);
         }
 
         response.clear();
@@ -317,7 +314,6 @@ int main(int argc, char* argv[]) {
 
         while(true){
             ssize_t byte_recv = 0;
-            memset(&buf, 0, sizeof(buf));
 
             if(use_https){
                 byte_recv = SSL_read(ssl, buf, sizeof(buf));
@@ -336,7 +332,6 @@ int main(int argc, char* argv[]) {
                 break;
             }
             response.append(buf, byte_recv);
-            printf("Received %zu bytes from server.\n", response.size());
         }
         close(sockfd);
 
